@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- this Demo is not meant to fully work at this time -->
+<!-- if you are a PHP security expert I would appreciate your help -->
 
 
 
@@ -26,7 +27,7 @@
 
 		<meta name="keywords" content="NodeNonce, Node Nonce, cryptocurrency multiple listing service, crypto multiple listing service, Multiple Listing Service, MLS, cryptocurrency MLS, crypto MLS, cryptoMLS, cryptocommunity, crypto community, cryptospace, crypto space, crypto universe, cryptoverse, cryptomultiverse, crypto multiverse, cryptosphere, crypto sphere, cryptocurrency mining opperation, cryptocurrency mining opperations, cryptocurrency mining operating facilities, cryptocurrency opperating facility, cryptocurrency mining, mining facility, mining facilities, mining rig, mining rigs, ASIC rig, ASIC rigs, ASIC miner, ASIC miners, ASIC mining, GPU rig, GPU rigs, GPU miner, GPU miners, GPU mining, CPU rig, CPU rigs, CPU miner, CPU miners, CPU mining, miner leasing contract, miner lease contract, mining lease contract, mining leasing contract, hash power, hashing power, hash rate, hashing rate, property, properties, real property, real estate, miner pool, miner pools, mining pool, mining pools, digital cash, digitalcash, blockchain, block chain, blocks, block reward, block rewards, cryptocurrency, crypto currency, crypto, ASIC, GPU, CPU, mining, miner, mine, hash, hashing, hashed, nonce, nonces, node, nodes, nodnonce, nodenonse, nodnonse, nodnons, nod, nods, nonse, nones, nons, rent, own, buy, lease, list, listing, listings, sell, selling, sale, sales" />
 
-		<meta name="description" content="Lease or own cryptocurrency mining opperation cash-flow." />
+		<meta name="description" content="Cryptocurrency mining opperation multiple listing cash&ndash;flow Real Estate starts here&period;" />
 
 		<!-- No Cache, may or may not keep this setting -->
 		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
@@ -40,16 +41,18 @@
 
 
 <title>
-NodeNonce&colon;&nbsp;List
+NodeNonce&colon;&nbsp;List&nbsp;Demo
 </title>
 
 
 
 
 
+<!-- CALL CSS STYLE SHEETS for FONTS -->
+	<link rel="stylesheet" href="https://use.typekit.net/ayp5zkk.css">
+
 <!-- CALL CSS STYLE SHEET for FAFA Icons -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
 
 <style>
@@ -77,10 +80,10 @@ body {
 	text-align: left; 
 	background: #e0e0e0; 
 	padding-bottom: 100px; 
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; }
+	font-family: "DejaVu Serif", "Lucida Bright", "serif"; }
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td 
-	{ margin: 0; padding: 0; border: 0; outline: 0; font-size: 150%; vertical-align: baseline; }
+	{ margin: 0; padding: 0; border: 0; outline: 0; font-size: 162%; vertical-align: baseline; }
 
 	a { text-decoration: none; 
 		color: white; 
@@ -92,6 +95,12 @@ body {
 
 	ol, ul { 
 		list-style: none; }
+
+	div { 
+		font: 16px "source-code-pro", "Open Sans", "Arial", "Helvetica", "sans-serif"; 
+		font-weight: 400; 
+		font-style: normal; 
+		letter-spacing: 0.01em; }
 
 	blockquote, q { 
 		quotes: none; }
@@ -118,16 +127,7 @@ body {
 			/*_________________*/
 /*---------  B O D Y   T Y P E S -------------------*/
 			/*_________________*/
-div { font: 12px Arial; }
-
-span.bold { 
-	position: relative; 
-	font-weight: bold; 
-	float: left; 
-	text-align: left; 
-	clear: left; }
-
-img.logo { 
+img.logo { /* Vilfredo Pareto */
 	display: block; 
 	margin-left: auto; 
 	margin-right: auto; 
@@ -137,7 +137,6 @@ img.logo {
 .topbannerad { 
 	position: absolute; 
 	display: inline-block; 
-	/* opacity: 0.7; */
 	list-style: none; 
 	cursor: pointer; 
 	top: 15px; 
@@ -155,17 +154,24 @@ img.logo {
 
 #andor { 
 	position: relative; 
+	top: 123px; 
 	float: left; 
 	left: 40%;  
 	color: dimgray; 
-	font-size: 300%; }
+	letter-spacing: 0.01em; 
+	word-spacing: 5px; 
+	font: 300% "archetype", "Trebuchet MS", "DejaVu Sans", "Segoe UI", "Lato", "serif"; 
+	font-weight: 400; 
+	font-style: normal; }
 
 
 /*---------- \\\AFFECTS/// \\\ALL/// NAVs ----------*/
 ul { text-align: center; }
 
 ul li { 
-	font: 40px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; }
+	font: 50px "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace", "sans-serif"; 
+	font-weight: 700; 
+	font-style: normal; }
 
 ul > li { 
 	display: inline-block; }
@@ -238,7 +244,7 @@ ul#vert-list li {
 	background: #e0e0e0; 
 	width: 200px; 
 	color: darkslategray; 
-	font: 40px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; }
+	font: 40px "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; }
 
 #vert-list a { 
 	display: inline; 
@@ -251,7 +257,7 @@ ul#vert-list li {
 	background: #e0e0e0; 
 	width: 200px; 
 	color: black; 
-	font: 40px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; }
+	font: 40px "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; }
 
 #vert-list a:hover { 
 	padding: 20px 0px 0px 0px; 
@@ -276,7 +282,7 @@ ul#vert-list li {
 	padding: 0px 0px 0px 0px; }
 
 .dropdown { 
-	left: -7px; 
+	left: -10px; 
 	position: relative; 
 	display: inline-block; }
 
@@ -284,7 +290,7 @@ ul#vert-list li {
 	display: block; }
 
 .dropdown figure { 
-	cursor: pointer; 
+	cursor: context-menu; 
 	background: #e0e0e0; 
 	color: black; 
 	border: none; 
@@ -301,7 +307,9 @@ ul#vert-list li {
 	background: darkslategray; 
 	width: 300px; 
 	color: white; 
-	font: 45px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; }
+	font: 45px "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace", "sans-serif"; 
+	font-weight: 700; 
+	font-style: normal; }
 
 .dropdown a:hover { 
 	background: black; 
@@ -347,11 +355,16 @@ nav {
 /*--------- SELECTOR HEADER ------------------------*/
 			/*____________*/
 .rors { 
+	position: absolute; 
+	top: 636px; 
+	font: 40px "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace", "sans-serif"; 
+	font-weight: 700; 
+	font-style: normal; 
+	font-size: 40px; 
 	background: gray; 
 	opacity: 1; 
 	color: lightgray; 
 	border: none; 
-	font-size: 40px; 
 	text-align: center; 
 	width: 78%; 
 	margin: 0px 0px 0px 0px; 
@@ -362,22 +375,25 @@ nav {
 /*--------- CHECK BOX SELECTORS --------------------*/
 			/*________________*/
 /* Box Labels */
-.container { /* border: 1px dashed black; */
+.container { 
 	display: block; 
 	position: relative; 
-	top: 30px; 
+	top: 160px; 
 	width: 332px; 
 	padding-left: 110px; 
 	margin-bottom: 50px; 
-	cursor: pointer; 
-	font-size: 80px; 
+	cursor: url('checkboxcursor.svg'), url('checkboxcursor.png'), url('https://www.nodenonce.com/checkboxcursor.png'), pointer; 
+	letter-spacing: 0.01em; 
+	word-spacing: 5px; 
+	font: 80px "archetype", "Trebuchet MS", "DejaVu Sans", "Segoe UI", "Lato", "serif"; 
+	font-weight: 400; 
+	font-style: normal; 
 	text-align: left; 
 	left: 25%; }
 
 /* This hides the browser's default checkbox */
 .container input { 
 	position: absolute; 
-	/* opacity: 0; */
 	cursor: pointer; 
 	height: 0; 
 	width: 0; }
@@ -424,7 +440,7 @@ nav {
 			/*_____________*/
 .btn-group .button { 
 	position: relative; 
-	top: 125px; 
+	top: 275px; 
 	float: right; 
 	right: 50%; 
 	background-color: lightslategray; 
@@ -435,14 +451,13 @@ nav {
 	padding: 15px 0px; 
 	text-align: center; 
 	text-decoration: none; 
-	font-size: 50px; 
+	font-size: 55px; 
 	font-weight: bold; 
 	letter-spacing: 4px; 
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
+	font-family: "september", "Trebuchet MS", "DejaVu Sans", "Segoe UI", "Lato", "sans-serif"; 
 	cursor: pointer; 
 	width: 255px; 
-	height: 150px; 
-	/* display: block; */ }
+	height: 150px; }
 
 .btn-group .button:not(:last-child) { 
 	border-bottom: none; }
@@ -463,8 +478,9 @@ nav {
 .pagination { 
 	display: inline-block; 
 	text-align: center; 
-	font: 125% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
-	font-weight: bold; }
+	font: 125% "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
+	font-weight: 700; 
+	font-style: normal; }
 
 .pagination a { 
 	color: black; 
@@ -484,7 +500,7 @@ nav {
 	background-color: white; 
 	color: black; }
 
-#menubox { /* border: 1px dashed green; */
+#menubox { /* May 26 */
 	position: absolute; 
 	float: left; 
 	width: 70%; 
@@ -500,18 +516,20 @@ nav {
 			/*_________________*/
 .webinfo { 
 	color: darkslategray; 
-	font-size: 200%; 
-	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace' }
+	font: 200% "anonymous-pro", "Andale Mono", "source-code-pro", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
+	font-weight: 400; 
+	font-style: normal; }
 
 .webinfo a { 
 	color: darkslategray; 
-	font-size: 100%; 
-	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace' }
+	font: 100% "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
+	font-weight: 700; 
+	font-style: normal; }
 
-.webinfo a:hover { 
+.webinfo a:hover { /* complete graph */
 	background-color: darkslategray; 
 	color: white; 
-	padding: 10px 15px 10px 15px; 
+	padding: 15px 15px 15px 15px; 
 	-webkit-transition: all 0.3s ease-in; 
 	-moz-transition: all 0.3s ease-in; 
 	-ms-transition: all 0.3s ease-in; 
@@ -527,8 +545,11 @@ nav {
 /*---------- +++++++++++++++++++ --------------------*/
 #betawarning { 
 	position: relative; 
-	font-weight: bold; 
-	font: 300% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	top: 130px; 
+	font: 300% "source-code-pro", "Open Sans", "Arial", "Helvetica", "sans-serif"; 
+	font-weight: 400; 
+	font-style: normal; 
+	letter-spacing: 0.01em; 
 	padding: 0px 10px 0px 10px; 
 	float: left; 
 	left: 24%; 
@@ -536,8 +557,10 @@ nav {
 	color: black; }
 
 .betabg { 
-	font-weight: bold; 
-	font: 100% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	position: relative; 
+	font: 100% "source-code-pro", "Open Sans", "Arial", "Helvetica", "sans-serif"; 
+	font-weight: 400; 
+	font-style: normal; 
 	padding: 10px 0px 10px 0px; 
 	opacity: 0.7; 
 	background: red; 
@@ -693,26 +716,16 @@ nav {
 				<h2 tabindex="0" 
 					title="tagline" 
 					aria-labelledby="tagline" 
-					style="color: darkslategray; font-size: 350%; font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'">
+					style="color: darkslategray; font-size: 300%; font-family: 'anonymous-pro', 'Andale Mono', 'source-code-pro', 'Lucida Console', 'Lucida Sans Typewriter', 'Courier New', 'monospace'">
 					The&nbsp;Realty&nbsp;of&nbsp;Cryptocurrency&nbsp;Mining
 				</h2>
-
 
 
 	</header>
 
 
-
-
-
 	<br />
 	<br />
-	<br />
-	<br />
-	<br />
-
-
-
 
 
 	<!-- Main Site Navigation -->
@@ -754,7 +767,7 @@ nav {
 
 	<!-- SELECTOR HEADER -->
 	<div class="rors">
-		<p tabindex="0">Renting&nbsp;or&nbsp;Selling&quest;</p>
+		<p tabindex="0">Renting&nbsp;or&nbsp;Selling&nbsp;&quest;</p>
 	</div>
 
 
@@ -817,9 +830,9 @@ nav {
 
 					<button type="submit" 
 							class="button" 
-							title="submit&nbsp;to&nbsp;go&nbsp;to&nbsp;next&nbsp;step">
-						next&nbsp;&zigrarr;
-					</button>
+							title="submit&nbsp;to&nbsp;go&nbsp;to&nbsp;next&nbsp;step">next&nbsp;&zigrarr;
+					</button> <!-- why wont my inside button text appear correctly upon browsing with the latest TOR browser pls tell me how to fix that -->
+
 
 
 			</div>
@@ -878,7 +891,7 @@ nav {
 	<br />
 
 
-				last&nbsp;updated&nbsp;on&colon;&nbsp;2019&nbsp;September&nbsp;5<sup aria-hidden="true">th</sup>
+				last&nbsp;updated&nbsp;on&colon;&nbsp;2019&nbsp;September&nbsp;14<sup aria-hidden="true">th</sup>
 
 			</div>
 
