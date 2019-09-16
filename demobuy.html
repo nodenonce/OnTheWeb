@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- this Demo is not meant to fully work at this time -->
+<!-- if you are a PHP security expert I would appreciate your help -->
 
 
 
@@ -26,7 +27,7 @@
 
 		<meta name="keywords" content="NodeNonce, Node Nonce, cryptocurrency mining opperation, cryptocurrency mining opperations, cryptocurrency mining operating facilities, cryptocurrency opperating facility, cryptocurrency mining, mining facility, mining facilities, mining rig, mining rigs, ASIC rig, ASIC rigs, ASIC miner, ASIC miners, ASIC mining, GPU rig, GPU rigs, GPU miner, GPU miners, GPU mining, CPU rig, CPU rigs, CPU miner, CPU miners, CPU mining, miner leasing contract, miner lease contract, mining lease contract, mining leasing contract, hash power, hashing power, hash rate, hashing rate, property, properties, real property, real estate, miner pool, miner pools, mining pool, mining pools, digital cash, digitalcash, blockchain, block chain, blocks, block reward, block rewards, cryptocurrency, crypto currency, crypto, ASIC, GPU, CPU, mining, miner, mine, hash, hashing, hashed, nonce, nonces, node, nodes, nodnonce, nodenonse, nodnonse, nodnons, nod, nods, nonse, nones, nons, rent, own, buy, lease, list, listing, listings" />
 
-		<meta name="description" content="Lease or own cryptocurrency mining opperation cash-flow." />
+		<meta name="description" content="Lease or own cryptocurrency mining opperation cash&ndash;flow&period;" />
 
 		<!-- No Cache, may or may not keep this setting -->
 		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
@@ -40,12 +41,15 @@
 
 
 <title>
-NodeNonce&colon;&nbsp;Buy
+NodeNonce&colon;&nbsp;Buy&nbsp;Demo
 </title>
 
 
 
 
+
+<!-- CALL CSS STYLE SHEETS for FONTS -->
+	<link rel="stylesheet" href="https://use.typekit.net/ayp5zkk.css">
 
 <!-- CALL CSS STYLE SHEET for FAFA Icons -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -76,10 +80,10 @@ body {
 	text-align: left; 
 	background: #e0e0e0; 
 	padding-bottom: 100px; 
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; }
+	font-family: "DejaVu Serif", "Lucida Bright", "serif"; }
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td 
-	{ margin: 0; padding: 0; border: 0; outline: 0; font-size: 150%; vertical-align: baseline; }
+	{ margin: 0; padding: 0; border: 0; outline: 0; font-size: 162%; vertical-align: baseline; }
 
 	a { text-decoration: none; 
 		color: white; 
@@ -91,6 +95,12 @@ body {
 
 	ol, ul { 
 		list-style: none; }
+
+	div { 
+		font: 16px "source-code-pro", "Open Sans", "Arial", "Helvetica", "sans-serif"; 
+		font-weight: 400; 
+		font-style: normal; 
+		letter-spacing: 0.01em; }
 
 	blockquote, q { 
 		quotes: none; }
@@ -117,16 +127,17 @@ body {
 			/*_________________*/
 /*---------  B O D Y   T Y P E S -------------------*/
 			/*_________________*/
-div { font: 12px Arial; }
-
-span.bold { 
+span.hiddenheader { 
 	position: relative; 
 	font-weight: bold; 
+	font-size: 1px; 
 	float: left; 
 	text-align: left; 
 	clear: left; }
 
-img.logo { 
+div.tiny { font-size: 1px; }
+
+img.logo { /* Vilfredo Pareto */
 	display: block; 
 	margin-left: auto; 
 	margin-right: auto; 
@@ -138,7 +149,9 @@ img.logo {
 ul { text-align: center; }
 
 ul li { 
-	font: 40px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; }
+	font: 50px "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace", "sans-serif"; 
+	font-weight: 700; 
+	font-style: normal; }
 
 ul > li { 
 	display: inline-block; }
@@ -170,9 +183,9 @@ ul li a {
 	border: lightslategray; 
 	background-color: lightslategray; 
 	color: white; 
-	font-size: 40px; 
+	font-size: 45px; 
 	letter-spacing: 1px; 
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
+	font-family: "september", "Trebuchet MS", "DejaVu Sans", "Segoe UI", "Lato", "sans-serif"; 
 	margin: 15px 0px 0px -708px; 
 	padding: 1em 0.8em; 
 	height: 150px; 
@@ -242,7 +255,7 @@ ul#vert-list li {
 	background: #e0e0e0; 
 	width: 200px; 
 	color: darkslategray; 
-	font: 40px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; }
+	font: 40px "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; }
 
 #vert-list a { 
 	display: inline; 
@@ -255,7 +268,7 @@ ul#vert-list li {
 	background: #e0e0e0; 
 	width: 200px; 
 	color: black; 
-	font: 40px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; }
+	font: 40px "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; }
 
 #vert-list a:hover { 
 	padding: 20px 0px 0px 0px; 
@@ -280,7 +293,7 @@ ul#vert-list li {
 	padding: 0px 0px 0px 0px; }
 
 .dropdown { 
-	left: -7px; 
+	left: -10px; 
 	position: relative; 
 	display: inline-block; }
 
@@ -288,7 +301,7 @@ ul#vert-list li {
 	display: block; }
 
 .dropdown figure { 
-	cursor: pointer; 
+	cursor: context-menu; 
 	background: #e0e0e0; 
 	color: black; 
 	border: none; 
@@ -305,7 +318,9 @@ ul#vert-list li {
 	background: darkslategray; 
 	width: 300px; 
 	color: white; 
-	font: 45px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; }
+	font: 45px "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace", "sans-serif"; 
+	font-weight: 700; 
+	font-style: normal; }
 
 .dropdown a:hover { 
 	background: black; 
@@ -350,7 +365,7 @@ nav {
 			/*________________*/
 /*--------- SIDE Container Area --------------------*/
 			/*________________*/
-#flodiv2 { 
+#flodiv2 { /* Strong Number */
 	position: relative; 
 	opacity: 1; 
 	margin: 0px 0px 0px 0px; 
@@ -371,7 +386,10 @@ nav {
 	color: gray; 
 	border: none; 
 	padding: 1em 0.8em; 
-	font-size: 40px; 
+	font: 40px "source-code-pro", "Open Sans", "Arial", "Helvetica", "sans-serif"; 
+	font-weight: 400; 
+	font-style: normal; 
+	letter-spacing: 0.01em; 
 	list-style: none; 
 	width: 96%; 
 	margin: 0px 0px 0px 0px; 
@@ -389,7 +407,7 @@ nav {
 	width: 132px; 
 	padding-left: 60px; 
 	margin-bottom: 50px; 
-	cursor: pointer; 
+	cursor: url('checkboxcursor.svg'), url('checkboxcursor.png'), url('https://www.nodenonce.com/checkboxcursor.png'), pointer; 
 	font-size: 33px; 
 	text-align: left; 
 	left: 5px; }
@@ -451,10 +469,10 @@ nav {
 	padding: 15px 0px; 
 	text-align: center; 
 	text-decoration: none; 
-	font-size: 50px; 
-	font-weight: bold; 
+	font: 55px "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
+	font-weight: 700; 
+	font-style: normal;
 	letter-spacing: 4px; 
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
 	cursor: pointer; 
 	width: 255px; 
 	height: 150px; 
@@ -472,6 +490,10 @@ nav {
 	-o-transition: all 0.2s ease-in; 
 	transition: all 0.2s ease-in; }
 
+#hoverup { cursor: n-resize; }
+
+#hoverdown { cursor: s-resize; }
+
 
 			/*____________________*/
 /*--------- BOTTOM pg selector Menu ----------------*/
@@ -479,10 +501,12 @@ nav {
 .pagination { 
 	display: inline-block; 
 	text-align: center; 
-	font: 125% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
-	font-weight: bold; }
+	font: 125% "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
+	font-weight: 700; 
+	font-style: normal; }
 
 .pagination a { 
+	cursor: alias; 
 	color: black; 
 	float: left; 
 	padding: 18px 25px 18px 25px; 
@@ -490,6 +514,7 @@ nav {
 	text-decoration: none; }
 
 .pagination a.active { 
+	cursor: pointer; 
 	background-color: black; 
 	color: white; }
 
@@ -505,7 +530,7 @@ nav {
 	float: left; 
 	width: 70%; 
 	height: 450px; 
-	top: 4708px; 
+	top: 4700px; 
 	left: 5px; 
 	background-color: #e0e0e0; 
 	text-align: center; }
@@ -516,18 +541,20 @@ nav {
 			/*_________________*/
 .webinfo { 
 	color: darkslategray; 
-	font-size: 200%; 
-	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace' }
+	font: 200% "anonymous-pro", "Andale Mono", "source-code-pro", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
+	font-weight: 400; 
+	font-style: normal; }
 
 .webinfo a { 
 	color: darkslategray; 
-	font-size: 100%; 
-	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace' }
+	font: 100% "september", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
+	font-weight: 700; 
+	font-style: normal; }
 
-.webinfo a:hover { 
+.webinfo a:hover { /* complete graph */
 	background-color: darkslategray; 
 	color: white; 
-	padding: 10px 15px 10px 15px; 
+	padding: 15px 15px 15px 15px; 
 	-webkit-transition: all 0.3s ease-in; 
 	-moz-transition: all 0.3s ease-in; 
 	-ms-transition: all 0.3s ease-in; 
@@ -589,16 +616,22 @@ nav {
 /*-------+++# WARNING | WARNING #+++-----------------*/
 /*---------- +++++++++++++++++++ --------------------*/
 #betawarning { 
-	font-weight: bold; 
-	font: 100% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	position: relative; 
+	top: -30px; 
+	font: 100% "source-code-pro", "Open Sans", "Arial", "Helvetica", "sans-serif"; 
+	font-weight: 400; 
+	font-style: normal; 
 	padding: 25px 10px 0px 10px; 
 	float: right; 
 	text-align: center; 
 	color: black; }
 
 .betabg { 
-	font-weight: bold; 
-	font: 100% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	position: relative; 
+	top: 0px; 
+	font: 100% "source-code-pro", "Open Sans", "Arial", "Helvetica", "sans-serif"; 
+	font-weight: 400; 
+	font-style: normal; 
 	padding: 10px 0px 10px 0px; 
 	opacity: 0.7; 
 	background: red; 
@@ -617,28 +650,31 @@ nav {
 			/*________________*/
 /* FEATURED */
 p.contentboxtop1 { 
-	font: 180% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	font: 0% "anonymous-pro", "Andale Mono", "source-code-pro", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
+	font-weight: 400; 
+	font-style: normal; 
 	color: black; 
 	text-align: left; 
 	position: absolute; 
 	width: 35%; 
 	height: 400px; 
-	top: 4px; 
+	top: 3px; 
 	left: 64%; }
 
 p.contentboxtxt1 { 
-	font: 225% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	font: 225% "anonymous-pro", "Andale Mono", "source-code-pro", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
+	font-weight: 400; 
+	font-style: normal; 
 	color: black; 
 	text-align: left; 
 	position: absolute; 
 	width: 35%; 
 	height: 320px; 
-	top: 80px; 
+	top: 101px; 
 	left: 64%; }
 
 .imgabsdiv1 { 
 	cursor: pointer; 
-	/* opacity: 0.7; */
 	background-color: #F3F3F3; 
 	color: darkslategray; 
 	border: 1px solid darkslategray; 
@@ -658,28 +694,27 @@ p.contentboxtxt1 {
 
 /* BASIC */
 p.contentboxtop2 { 
-	font: 0% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	font: 0% "anonymous-pro", "Andale Mono", "source-code-pro", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
 	color: black; 
 	text-align: left; 
 	position: absolute; 
 	width: 50%; 
 	height: 300px; 
-	top: 4px; 
+	top: 3px; 
 	left: 49%; }
 
 p.contentboxtxt2 { 
-	font: 205% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	font: 205% "anonymous-pro", "Andale Mono", "source-code-pro", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
 	color: black; 
 	text-align: left; 
 	position: absolute; 
 	width: 50%; 
 	height: 220px; 
-	top: 80px; 
+	top: 35px; 
 	left: 49%; }
 
 .imgabsdiv2 { 
 	cursor: pointer; 
-	/* opacity: 0.7; */
 	background-color: #F3F3F3; 
 	color: darkslategray; 
 	border: 1px solid darkslategray; 
@@ -697,14 +732,14 @@ p.contentboxtxt2 {
 	border: 1px solid white; }
 
 p.econloc0 { 
-	font: 50% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	font: 50% "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Courier New", "monospace"; 
 	color: black; 
 	text-align: right; 
 	cursor: pointer; 
 	position: absolute; 
 	width: 50%; 
 	height: 85px; 
-	top: 220px; 
+	top: 228px; 
 	right: 1%; }
 
 
@@ -957,6 +992,7 @@ p.econloc0 {
 			/*________________*/
 /* 1st box heart */
 .favsaveicon { 
+	cursor: url('heartarrow.svg'), url('heartarrow.png'), url('https://www.nodenonce.com/heartarrow.png'), pointer; 
 	position: static; 
 	float: right; }
 
@@ -1277,16 +1313,18 @@ a.eloc:active { color: darkslategray; }
 a.mymainshill:link { 
 	position: absolute; 
 	float: inherit; 
-	top: 2337px; 
+	top: 2335px; 
 	text-align: center; 
-	font-weight: bold; 
-	font: 35px Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	font: 35px "source-code-pro", "Open Sans", "Arial", "Helvetica", "sans-serif"; 
+	font-weight: 400; 
+	font-style: normal; 
+	letter-spacing: 0.01em; 
 	color: white; 
 	border: 1px solid white; 
 	background: darkslategray; 
 	opacity: 0.7; 
 	width: 65.4%; 
-	padding: 25px 25px 25px 25px; }
+	padding: 20px 25px 20px 25px; }
 
 a.mymainshill:visited { 
 	color: white; 
@@ -1298,7 +1336,7 @@ a.mymainshill:hover {
 	background: darkslategray; 
 	opacity: 1; 
 	height: inherit; 
-	padding: 21px 21px 21px 21px; }
+	padding: 16px 21px 16px 21px; }
 
 a.mymainshill:active { 
 	color: white; 
@@ -1315,14 +1353,16 @@ a.mymainshill:active {
 	background: black; }
 
 a.myshill:link { 
-	font-weight: bold; 
-	font: 250% Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	font: 200% "source-code-pro", "Open Sans", "Arial", "Helvetica", "sans-serif"; 
+	font-weight: 400; 
+	font-style: normal; 
+	letter-spacing: 0.01em; 
 	text-align: center; 
 	color: white; 
 	border: 1px solid white; 
 	background: darkslategray; 
 	opacity: 0.7; 
-	padding: 25px 25px 25px 25px; }
+	padding: 20px 25px 20px 25px; }
 
 a.myshill:visited { 
 	color: white; 
@@ -1334,7 +1374,7 @@ a.myshill:hover {
 	border: 5px solid white; 
 	background: darkslategray; 
 	opacity: 1; 
-	padding: 21px 21px 21px 21px; }
+	padding: 16px 21px 16px 21px; }
 
 a.myshill:active { 
 	color: white; 
@@ -1488,26 +1528,16 @@ a.myshill:active {
 				<h2 tabindex="0" 
 					title="tagline" 
 					aria-labelledby="tagline" 
-					style="color: darkslategray; font-size: 350%; font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'">
+					style="color: darkslategray; font-size: 300%; font-family: 'anonymous-pro', 'Andale Mono', 'source-code-pro', 'Lucida Console', 'Lucida Sans Typewriter', 'Courier New', 'monospace'">
 					The&nbsp;Realty&nbsp;of&nbsp;Cryptocurrency&nbsp;Mining
 				</h2>
-
 
 
 	</header>
 
 
-
-
-
 	<br />
 	<br />
-	<br />
-	<br />
-	<br />
-
-
-
 
 
 	<!-- Main Site Navigation -->
@@ -1540,16 +1570,14 @@ a.myshill:active {
 	<br />
 	<br />
 	<br />
-	<br />
-	<br />
 
 
 
 
 
 	<!-- SEARCH BAR -->
-	<p aria-labelledby="instruction&nbsp;prompt" style="color: dimgray; font-size: 260%;">
-		Search by country or zip&nbsp;&sol;&nbsp;postal&nbsp;code
+	<p aria-labelledby="instruction&nbsp;prompt" style="color: dimgray; font-size: 216%;">
+		Search by country or zip&sol;postal&nbsp;code
 	</p>
 
 
@@ -1712,15 +1740,15 @@ a.myshill:active {
 
 
 					<button type="submit" 
-							class="button" 
+							class="button" id="hoverup" 
 							title="sort&nbsp;by&nbsp;price&nbsp;&lpar;highest&nbsp;first&rpar;">
-						&uarr;&nbsp;Price
+						<span style="font-size: 50px; font-family: 'source-code-pro', 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';">&uarr;</span>&nbsp;Price
 					</button>
 
 					<button type="submit" 
-							class="button" 
+							class="button" id="hoverdown" 
 							title="sort&nbsp;by&nbsp;price&nbsp;&lpar;lowest&nbsp;first&rpar;">
-						&darr;&nbsp;Price
+						<span style="font-size: 50px; font-family: 'source-code-pro', 'Open Sans', 'Arial', 'Helvetica', 'sans-serif';">&darr;</span>&nbsp;Price
 					</button>
 
 	  				<button type="reset" 
@@ -1777,27 +1805,27 @@ a.myshill:active {
 
 
 			<!-- hidden until tabbed, ACCESSIBILITY BOX 1 -->
-				<span class="bold" role="presentation">First of Featured&comma;</span>
+				<span class="hiddenheader" role="presentation">First of Featured&comma;</span>
 
 	<br />
 	<br />
 
 				<!-- hidden until tabbed, input info for accessabiliy -->
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 						Image&nbsp;Description&colon;&nbsp;
 	<br />
 						picture of facility with equipment inside&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 						Sale&nbsp;price&colon;&nbsp;100&comma;000&nbsp;Bit&nbsp;Coin&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 						Type&colon;&nbsp;Facility&comma; Equipped&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 						Location&colon;&nbsp;Yancheng&comma; Jiangsu&comma;&nbsp;postal&nbsp;code&comma;&nbsp;2&nbsp;2&nbsp;4&nbsp;0&nbsp;0&nbsp;6
 					</div>
 
@@ -1863,10 +1891,7 @@ a.myshill:active {
 
 
 				<p class="contentboxtxt1" role="none" aria-hidden="true">
-
-	<br />
-	<br />
-				&#3647;100&comma;000&nbsp;BTC
+				&#3647;100&comma;000
 	<br />
 	<br />
 				Facility
@@ -1922,26 +1947,26 @@ a.myshill:active {
 
 
 	<!-- hidden until tabbed, ACCESSIBILITY BOX 2 -->
-				<span class="bold" role="presentation">Second of Featured&comma;</span>
+				<span class="hiddenheader" role="presentation">Second of Featured&comma;</span>
 
 	<br />
 	<br />
 
 					<!-- hidden until tabbed, input info for accessabiliy -->
-					<div role="presentation">Image&nbsp;Description&colon;
+					<div class="tiny" role="presentation">Image&nbsp;Description&colon;
 	<br />
 					picture of an empty dam facility&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Sale&nbsp;price&colon;&nbsp;&dollar;40&comma;000&comma;000&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Type&colon;&nbsp;Facility&comma; Empty&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Location&colon;&nbsp;Arrow&nbsp;Rock&comma; Missouri&comma;&nbsp;postal&nbsp;code&comma;&nbsp;6&nbsp;5&nbsp;3&nbsp;2&nbsp;0
 					</div>
 
@@ -2002,10 +2027,7 @@ a.myshill:active {
 
 
 				<p class="contentboxtxt1" role="none" aria-hidden="true">
-
-	<br />
-	<br />
-				&dollar;40&comma;000&comma;000&nbsp;USD
+				&dollar;40&comma;000&comma;000
 	<br />
 	<br />
 				Facility
@@ -2062,26 +2084,26 @@ a.myshill:active {
 
 
 	<!-- hidden until tabbed, ACCESSIBILITY BOX 3 -->
-				<span class="bold" role="presentation">Third of Featured&comma;</span>
+				<span class="hiddenheader" role="presentation">Third of Featured&comma;</span>
 
 	<br />
 	<br />
 
 					<!-- hidden until tabbed, input info for accessabiliy -->
-					<div role="presentation">Image&nbsp;Description&colon;
+					<div class="tiny" role="presentation">Image&nbsp;Description&colon;
 	<br />
 					picture of person binge watching their way to financial freedom&comma;&nbsp;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					sponsored&nbsp;advertisement&comma;&nbsp;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Close deals like the pros&excl;&nbsp;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					This&nbsp;is&nbsp;Real&nbsp;Estate&nbsp;education&nbsp;for&nbsp;United&nbsp;States&nbsp;investors&period;
 					</div>
 
@@ -2143,9 +2165,6 @@ a.myshill:active {
 
 
 				<p class="contentboxtxt1" role="none" aria-hidden="true">
-
-	<br />
-	<br />
 				Sponsored
 	<br />
 	<br />
@@ -2155,7 +2174,7 @@ a.myshill:active {
 	<br />
 	<br />
 					<span style="color: darkslategray; font-size: 100%;" role="none" aria-hidden="true">
-						U&period;S&period;&nbsp;based<br />Real Estate Education
+						Real Estate Education
 					</span>
 
 				</p>
@@ -2225,22 +2244,22 @@ a.myshill:active {
 
 
 	<!-- hidden until tabbed, ACCESSIBILITY BOX 4 -->
-				<span class="bold" role="presentation">Forth Listing&comma;</span>
+				<span class="hiddenheader" role="presentation">Forth Listing&comma;</span>
 
 	<br />
 	<br />
 
 					<!-- hidden until tabbed, input info for accessabiliy -->
-					<div role="presentation">Image&nbsp;Description&colon;
+					<div class="tiny" role="presentation">Image&nbsp;Description&colon;
 	<br />
 					picture of mining equiment within a designated unit&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Sale&nbsp;price&colon;&nbsp;&dollar;8&comma;000&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Type&colon;&nbsp;Unit&comma; Equipped
 					</div>
 
@@ -2284,7 +2303,7 @@ a.myshill:active {
 				<p class="contentboxtxt2" role="none" aria-hidden="true">
 
 	<br />
-				&dollar;8&comma;000&nbsp;USD
+				&dollar;8&comma;000
 	<br />
 	<br />
 				Unit
@@ -2358,22 +2377,22 @@ a.myshill:active {
 
 
 	<!-- hidden until tabbed, ACCESSIBILITY BOX 5 -->
-				<span class="bold" role="presentation">Fifth Listing&comma;</span>
+				<span class="hiddenheader" role="presentation">Fifth Listing&comma;</span>
 
 	<br />
 	<br />
 
 					<!-- hidden until tabbed, input info for accessabiliy -->
-					<div role="presentation">Image&nbsp;Description&colon;
+					<div class="tiny" role="presentation">Image&nbsp;Description&colon;
 	<br />
 					picture of empty unit&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Sale&nbsp;price&colon;&nbsp;15&nbsp;Monero&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Type&colon;&nbsp;Unit&comma; Empty
 					</div>
 
@@ -2417,7 +2436,7 @@ a.myshill:active {
 				<p class="contentboxtxt2" role="none" aria-hidden="true">
 
 	<br />
-				&#653;15&nbsp;XMR
+				&#653;15
 	<br />
 	<br />
 				Unit
@@ -2491,22 +2510,22 @@ a.myshill:active {
 
 
 	<!-- hidden until tabbed, ACCESSIBILITY BOX 6 -->
-				<span class="bold" role="presentation">Sixth Listing&comma;</span>
+				<span class="hiddenheader" role="presentation">Sixth Listing&comma;</span>
 
 	<br />
 	<br />
 
 					<!-- hidden until tabbed, input info for accessabiliy -->
-					<div role="presentation">Image&nbsp;Description&colon;
+					<div class="tiny" role="presentation">Image&nbsp;Description&colon;
 	<br />
 					picture of facility showing off grid solar outdoors&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Sale&nbsp;price&colon;&nbsp;500&nbsp;Bit&nbsp;Coin&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Type&colon;&nbsp;Facility&comma; Equipped
 					</div>
 
@@ -2550,7 +2569,7 @@ a.myshill:active {
 				<p class="contentboxtxt2" role="none" aria-hidden="true">
 
 	<br />
-				&#3647;500&nbsp;BTC
+				&#3647;500
 	<br />
 	<br />
 				Facility
@@ -2624,22 +2643,22 @@ a.myshill:active {
 
 
 	<!-- hidden until tabbed, ACCESSIBILITY BOX 7 -->
-				<span class="bold" role="presentation">Seventh Listing&comma;</span>
+				<span class="hiddenheader" role="presentation">Seventh Listing&comma;</span>
 
 	<br />
 	<br />
 
 					<!-- hidden until tabbed, input info for accessabiliy -->
-					<div role="presentation">Image&nbsp;Description&colon;
+					<div class="tiny" role="presentation">Image&nbsp;Description&colon;
 	<br />
 					picture of GPU rig&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Sale&nbsp;price&colon;&nbsp;6&nbsp;Ethereum&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Type&colon;&nbsp;Rig&comma; GPU
 					</div>
 
@@ -2683,7 +2702,7 @@ a.myshill:active {
 				<p class="contentboxtxt2" role="none" aria-hidden="true">
 
 	<br />
-				&#926;6&nbsp;ETH
+				&#926;6
 	<br />
 	<br />
 				Rig
@@ -2757,22 +2776,22 @@ a.myshill:active {
 
 
 	<!-- hidden until tabbed, ACCESSIBILITY BOX 8 -->
-				<span class="bold" role="presentation">Eighth Listing&comma;</span>
+				<span class="hiddenheader" role="presentation">Eighth Listing&comma;</span>
 
 	<br />
 	<br />
 
 					<!-- hidden until tabbed, input info for accessabiliy -->
-					<div role="presentation">Image&nbsp;Description&colon;
+					<div class="tiny" role="presentation">Image&nbsp;Description&colon;
 	<br />
 					picture of empty unit space&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Sale&nbsp;price&colon;&nbsp;0&period;09&nbsp;Bit&nbsp;Coin&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Type&colon;&nbsp;Unit&comma; Empty
 					</div>
 
@@ -2816,7 +2835,7 @@ a.myshill:active {
 				<p class="contentboxtxt2" role="none" aria-hidden="true">
 
 	<br />
-				&#3647;0&period;09&nbsp;BTC
+				&#3647;0&period;09
 	<br />
 	<br />
 				Unit
@@ -2890,22 +2909,22 @@ a.myshill:active {
 
 
 	<!-- hidden until tabbed, ACCESSIBILITY BOX 9 -->
-				<span class="bold" role="presentation">Ninth Listing&comma;</span>
+				<span class="hiddenheader" role="presentation">Ninth Listing&comma;</span>
 
 	<br />
 	<br />
 
 					<!-- hidden until tabbed, input info for accessabiliy -->
-					<div role="presentation">Image&nbsp;Description&colon;
+					<div class="tiny" role="presentation">Image&nbsp;Description&colon;
 	<br />
 					picture of CPU miner interior&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Sale&nbsp;price&colon;&nbsp;&euro;1&comma;399&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Type&colon;&nbsp;Rig&comma; CPU
 					</div>
 
@@ -2949,7 +2968,7 @@ a.myshill:active {
 				<p class="contentboxtxt2" role="none" aria-hidden="true">
 
 	<br />
-				&euro;1&comma;399&nbsp;EUR
+				&euro;1&comma;399
 	<br />
 	<br />
 				Rig
@@ -3023,22 +3042,22 @@ a.myshill:active {
 
 
 	<!-- hidden until tabbed, ACCESSIBILITY BOX 10 -->
-				<span class="bold" role="presentation">Tenth Listing&comma;</span>
+				<span class="hiddenheader" role="presentation">Tenth Listing&comma;</span>
 
 	<br />
 	<br />
 
 					<!-- hidden until tabbed, input info for accessabiliy -->
-					<div role="presentation">Image&nbsp;Description&colon;
+					<div class="tiny" role="presentation">Image&nbsp;Description&colon;
 	<br />
 					picture of windmill facility outdoors with a lot of undeveloped land&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Sale&nbsp;price&colon;&nbsp;2&nbsp;Bit&nbsp;Coin&comma;
 					</div>
 
-					<div role="presentation">
+					<div class="tiny" role="presentation">
 					Type&colon;&nbsp;Facility&comma; Empty
 					</div>
 
@@ -3082,7 +3101,7 @@ a.myshill:active {
 				<p class="contentboxtxt2" role="none" aria-hidden="true">
 
 	<br />
-				&#3647;2&nbsp;BTC
+				&#3647;2
 	<br />
 	<br />
 				Facility
@@ -3234,8 +3253,6 @@ a.myshill:active {
 	<br />
 	<br />
 	<br />
-	<br />
-	<br />
 
 
 		<!-- BEGIN_ 2nd AD SHILL -->
@@ -3346,7 +3363,7 @@ a.myshill:active {
 	<br />
 
 
-				last&nbsp;updated&nbsp;on&colon;&nbsp;2019&nbsp;September&nbsp;5<sup aria-hidden="true">th</sup>
+				last&nbsp;updated&nbsp;on&colon;&nbsp;2019&nbsp;September&nbsp;14<sup aria-hidden="true">th</sup>
 
 			</div>
 
